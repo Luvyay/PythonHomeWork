@@ -83,7 +83,7 @@ def UNRLE(string):
         count_list.append(temp_count)
         temp_count = ''
     
-    # Если последний элемент это ключ и был без повторений, то записываем пустую строчку
+    # Если последний элемент ключ и был без повторений, то записываем пустую строчку
 
     if not string[-1].isdigit():
         count_list.append(temp_count)
